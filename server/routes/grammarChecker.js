@@ -20,7 +20,7 @@ grammarCheck.post("/", async (req, res) => {
           },
           { role: "user", content: text },
         ],
-        max_tokens: 1000,
+        max_tokens:300,
         n: 1,
         stop: null,
         temperature: 0.3,
